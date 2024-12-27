@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4e4ba;
+}
+
+.background-color {
+    position: fixed; /* Fixes the button in a specific position */
+    top: 10px;      /* Distance from the top */
+    right: 10px;    /* Distance from the right */
+    z-index: 1000;  /* Ensures it stays above other elements */
+    background-color: #f0f0f0; 
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.background {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#Heading{
+   margin: 10px;
+   padding: 10px;
+background-color: rgb(87, 14, 155);
+}
+
+/* .amount{
+    display: flex;
+    margin: 15px;
+    padding: auto;
+
+} */
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,input,input,.exchange{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 2px solid lightgrey;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.dropdown i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.select-Container img{
+    font-size: 1.75rem;
+
+    max-width:  2.75rem;
+
+}
+
+.select-Container{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(120, 114, 114);
+    /* background-color: pink; */
+
+}
+
+.select-Container select{
+    font-size: 1rem ;
+    width: auto;
+}
+
+.msg{
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchange{
+    height: 2rem;
+    background-color: #af4d98;
+    color : white;
+    font-size: 1rem;
+}
